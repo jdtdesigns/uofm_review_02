@@ -1,0 +1,14 @@
+<h1>Welcome {{user.email}}</h1>
+
+<h3>Update Email Address</h3>
+<form action="/users/{{user.id}}" method="POST">
+  <input name="email" type="email" placeholder="Enter your new email address">
+  <button>Submit</button>
+</form>
+
+<!-- <script>
+  const some_var = '{{blah}}';
+
+  console.log(some_var);
+
+</script> -->
